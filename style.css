@@ -1,0 +1,193 @@
+#apresentacao {
+    background-color: #ffc70e; /* tom suave amarelo pastel */
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.1);
+}
+/* Justifica os textos das duas seções */
+/* Justifica os textos das duas seções */
+#introducao-nordeste p,
+#culinaria-nordeste p {
+    text-align: justify;
+    line-height: 1.7;     /* espaço entre linhas */
+    font-size: 18px;
+    margin: 20px auto;
+    width: 80%;           /* centraliza e limita a largura */
+}
+
+/* Espaço entre o texto e a imagem */
+#imagem-nordeste {
+    text-align: center;   /* centraliza a imagem */
+    margin-top: 40px;     /* distancia a imagem do texto anterior */
+}
+
+#imagem-nordeste img {
+    border-radius: 12px;  /* bordas arredondadas para estética */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* leve sombra */
+}
+/* Texto justificado para a seção Sudeste */
+
+#culinaria-sudeste p {
+    text-align: justify;
+    line-height: 1.7;     /* espaço entre linhas */
+    font-size: 18px;
+    margin: 20px auto;
+    width: 80%;           /* centraliza e limita a largura */
+}
+
+/* Espaço entre o texto e a imagem Sudeste */
+#imagem-sudeste {
+    text-align: center;   /* centraliza a imagem */
+    margin-top: 40px;     /* distancia a imagem do texto anterior */
+}
+
+#imagem-sudeste img {
+    border-radius: 12px;  /* bordas arredondadas para estética */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* leve sombra */
+}
+
+/* Container dos botões */
+.container-botoes {
+    display: flex;               /* ativa flexbox */
+    justify-content: center;     /* centraliza horizontalmente */
+    gap: 20px;                   /* espaço entre os botões */
+    margin: 40px 0;              /* distância vertical */
+}
+
+/* Estilo dos botões */
+.btn-regiao {
+    background-color: #ffd95d;   /* tom amarelo pastel */
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-regiao:hover {
+    background-color: #ffc107;  /* tom mais forte ao passar o mouse */
+    transform: scale(1.05);     /* leve aumento */
+}
+/* Estilo geral para tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaços entre bordas */
+    margin: 20px 0;
+    font-size: 16px;
+    background-color: #fff8e1; /* tom amarelo pastel leve */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* sombra suave */
+}
+
+/* Cabeçalho da tabela */
+table th {
+    background-color: #ffd95d; /* tom amarelo mais intenso */
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #f0c14b;
+}
+
+/* Células da tabela */
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #f0e1a1; /* linha suave entre linhas */
+}
+
+/* Última linha sem borda */
+table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Estilo para listas */
+ul {
+    background-color: #fff8e1; /* tom amarelo pastel leve */
+    padding: 15px 20px;
+    border-radius: 10px;
+    list-style-type: disc; /* bolinha */
+    line-height: 1.7;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    margin: 20px 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+/* Estilo das imagens das receitas */
+img {
+    display: block;           /* centraliza a imagem */
+    margin: 20px auto;        /* espaço acima e abaixo */
+    max-width: 300px;         /* largura máxima da imagem */
+    width: 100%;              /* responsiva */
+    border-radius: 12px;      /* bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* sombra suave */
+}
+/* ===== Estilo Geral ===== */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fffaf0; /* tom amarelo pastel */
+    color: #333;
+}
+
+/* ===== Títulos ===== */
+h1 {
+    text-align: center;
+    color: #d35400; /* laranja escuro */
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+/* ===== Parágrafos ===== */
+p {
+    line-height: 1.7;
+    margin: 20px 0;
+}
+
+/* ===== Fontes/Referências ===== */
+.fonte {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.fonte a {
+    color: #d35400;
+    text-decoration: none;
+}
+
+.fonte a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Botões ===== */
+.button-container {
+    text-align: center;
+    margin: 30px 0;
+}   
+
+.button-container a {
+    background-color: #ffd95d; /* amarelo pastel */
+    color: #333;
+    padding: 12px 25px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button-container a:hover {
+    background-color: #f0c14b; /* tom mais escuro ao passar o mouse */
+}
+
+
+
